@@ -5,6 +5,13 @@ This package provides a menu Blade component which uses the default Magento cate
 <x-menu/>
 ```
 
+## Installation
+
+This package is installed by default in Rapidez. But if removed you can re-install it with:
+```
+composer require rapidez/menu
+```
+
 ## Configuration
 
 You can change the classes with the configuration file by publishing it with:

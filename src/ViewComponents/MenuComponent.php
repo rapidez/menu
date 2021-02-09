@@ -11,7 +11,7 @@ class MenuComponent extends Component
 {
     public function render(): string
     {
-        return Cache::rememberForever('menu', function () {
+        return Cache::rememberForever('menu.'.config('rapidez.store'), function () {
             return view('menu::menu', [
                 'items' => $this->convertToMenuTree(
                     Category::where('include_in_menu', 1)

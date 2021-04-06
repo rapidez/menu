@@ -16,13 +16,14 @@ class MenuComponent extends Component
                 'items' => $this->convertToMenuTree(
                     Category::where('include_in_menu', 1)
                         ->orderBy('path')
-                        ->get()
+                        ->get(),
+                    config('rapidez.root_category_id')
                 )
             ])->render();
         });
     }
 
-    protected function convertToMenuTree($items, $parentId = 2)
+    protected function convertToMenuTree($items, $parentId)
     {
         return $items->where('parent_id', $parentId)->map(function ($item) use ($items) {
             $item['children'] = $this->convertToMenuTree($items, $item->entity_id);

@@ -15,16 +15,16 @@ class MenuServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'menu');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'rapidez');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('views/vendor/menu'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/rapidez'),
         ], 'views');
 
-        $this->mergeConfigFrom(__DIR__.'/config/menu.php', 'menu');
+        $this->mergeConfigFrom(__DIR__.'/../config/menu.php', 'menu');
 
         $this->publishes([
-            __DIR__.'/config/menu.php' => config_path('menu.php'),
+            __DIR__.'/../config/menu.php' => config_path('menu.php'),
         ], 'config');
 
         Blade::component('menu', MenuComponent::class);

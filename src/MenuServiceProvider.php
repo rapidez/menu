@@ -2,9 +2,9 @@
 
 namespace Rapidez\Menu;
 
-use Rapidez\Menu\ViewComponents\MenuComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Rapidez\Menu\ViewComponents\MenuComponent;
 
 class MenuServiceProvider extends ServiceProvider
 {

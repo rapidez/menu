@@ -2,10 +2,9 @@
 
 namespace Rapidez\Menu\ViewComponents;
 
-use Rapidez\Core\Models\Category;
-use Rapidez\Menu\Models\Menu;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\View\Component;
+use Rapidez\Core\Models\Category;
 
 class MenuComponent extends Component
 {
@@ -18,7 +17,7 @@ class MenuComponent extends Component
                         ->orderBy('path')
                         ->get(),
                     config('rapidez.root_category_id')
-                )
+                ),
             ])->render();
         });
     }
@@ -27,6 +26,7 @@ class MenuComponent extends Component
     {
         return $items->where('parent_id', $parentId)->map(function ($item) use ($items) {
             $item['children'] = $this->convertToMenuTree($items, $item->entity_id);
+
             return $item;
         })->sortBy('position');
     }

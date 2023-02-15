@@ -5,6 +5,7 @@ namespace Rapidez\Menu;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Rapidez\Menu\ViewComponents\MenuComponent;
+use Rapidez\Menu\ViewComponents\MenuMobileComponent;
 
 class MenuServiceProvider extends ServiceProvider
 {
@@ -28,5 +29,6 @@ class MenuServiceProvider extends ServiceProvider
         ], 'config');
 
         Blade::component('menu', MenuComponent::class);
+        Blade::component('menu-mobile', MenuMobileComponent::class);
     }
 }

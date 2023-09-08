@@ -1,6 +1,16 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/0.2.3...master)
+[Unreleased changes](https://github.com/rapidez/menu/compare/0.3.0...master)
+## [0.3.0](https://github.com/rapidez/menu/releases/tag/0.3.0) - 2023-09-08
+
+### Added
+
+- Laravel 10 support (50f76d5)
+
+### Changed
+
+- Changed the default colors (4ac1012)
+
 ## [0.2.3](https://github.com/rapidez/menu/releases/tag/0.2.3) - 2023-07-04
 
 ### Fixed

@@ -21,10 +21,10 @@ class MenuServiceProvider extends ServiceProvider
             __DIR__.'/../resources/views' => resource_path('views/vendor/rapidez'),
         ], 'views');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/menu.php', 'menu');
+        $this->mergeConfigFrom(__DIR__.'/../config/rapidez/menu.php', 'rapidez.menu');
 
         $this->publishes([
-            __DIR__.'/../config/menu.php' => config_path('menu.php'),
+            __DIR__.'/../config/rapidez/menu.php' => config_path('rapidez/menu.php'),
         ], 'config');
 
         Blade::component('menu', MenuComponent::class);

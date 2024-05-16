@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/0.4.0...master)
+[Unreleased changes](https://github.com/rapidez/menu/compare/2.0.0...master)
+## [2.0.0](https://github.com/rapidez/menu/releases/tag/2.0.0) - 2024-05-16
+
+### Added
+
+- PHP 8.2, Rapidez v2 and Laravel 11 support (68aa385)
+
 ## [0.4.0](https://github.com/rapidez/menu/releases/tag/0.4.0) - 2023-12-01
 
 ### Changed

@@ -1,6 +1,13 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/2.0.0...master)
+[Unreleased changes](https://github.com/rapidez/menu/compare/3.0.0...master)
+## [3.0.0](https://github.com/rapidez/menu/releases/tag/3.0.0) - 2024-10-16
+
+### Added
+
+- Added v3 to dependencies (0704590)
+
+
 ## [2.0.0](https://github.com/rapidez/menu/releases/tag/2.0.0) - 2024-05-16
 
 ### Added

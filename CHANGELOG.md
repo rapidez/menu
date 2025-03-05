@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/3.0.0...master)
+[Unreleased changes](https://github.com/rapidez/menu/compare/3.0.1...master)
+## [3.0.1](https://github.com/rapidez/menu/releases/tag/3.0.1) - 2025-03-05
+
+### Fixed
+
+- Shadow on desktop sub-menu (#9)
+
 ## [3.0.0](https://github.com/rapidez/menu/releases/tag/3.0.0) - 2024-10-16
 
 ### Added

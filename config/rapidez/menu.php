@@ -8,7 +8,7 @@ return [
             'category' => 'block px-3 py-3.5 font-semibold',
         ],
         2 => [
-            'ul'       => 'hidden absolute flex bg-white border p-3 z-10 sm:group-hover:flex',
+            'ul'       => 'hidden shadow absolute flex bg-white border p-3 z-10 sm:group-hover:flex',
             'li'       => 'px-3',
             'category' => 'block font-semibold py-3',
         ],

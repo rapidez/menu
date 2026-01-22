@@ -13,7 +13,7 @@ class MenuComponent extends Component
         return Cache::rememberForever('menu.'.config('rapidez.store'), function () {
             return view('rapidez::menu.menu', [
                 'items' => $this->convertToMenuTree(
-                    Category::where('include_in_menu', 1)
+                    Category::whereAttribute('include_in_menu', 1)
                         ->orderBy('path')
                         ->get(),
                     config('rapidez.root_category_id')

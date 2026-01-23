@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/5.0.0...5.0.0)
+[Unreleased changes](https://github.com/rapidez/menu/compare/5.0.1...5.0.1)
+## [5.0.1](https://github.com/rapidez/menu/releases/tag/5.0.1) - 2026-01-23
+
+### Fixed
+
+- Use eav structure for where (#13)
+
 ## [5.0.0](https://github.com/rapidez/menu/releases/tag/5.0.0) - 2025-11-25
 
 ### Added

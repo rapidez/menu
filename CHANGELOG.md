@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/5.0.1...5.0.1)
+[Unreleased changes](https://github.com/rapidez/menu/compare/5.0.2...5.0.2)
+## [5.0.2](https://github.com/rapidez/menu/releases/tag/5.0.2) - 2026-03-10
+
+### Fixed
+
+- Unescape category name (#14)
+
 ## [5.0.1](https://github.com/rapidez/menu/releases/tag/5.0.1) - 2026-01-23
 
 ### Fixed

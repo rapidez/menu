@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/menu/compare/5.0.2...5.0.2)
+[Unreleased changes](https://github.com/rapidez/menu/compare/5.1.0...5.1.0)
+## [5.1.0](https://github.com/rapidez/menu/releases/tag/5.1.0) - 2026-03-24
+
+### Changed
+
+- Tailwind 4 update (#15)
+
 ## [5.0.2](https://github.com/rapidez/menu/releases/tag/5.0.2) - 2026-03-10
 
 ### Fixed
